@@ -13,7 +13,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
+    background: rgba(16, 71, 97, 0.6)!important;
 }
 .navbar-brand img {
     height: 2rem;
@@ -48,6 +48,16 @@ body {
     text-transform: uppercase;
 }
 
+.caption-audio {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 28%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
 .caption h1 {
     font-size: 3.8rem;
     font-weight: 700;
@@ -57,7 +67,7 @@ body {
 
 .caption h3 {
     font-size: 2rem;
-    text-shadow: 1.rem .1rem .5rem black;
+    text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1.6rem;
 }
 
