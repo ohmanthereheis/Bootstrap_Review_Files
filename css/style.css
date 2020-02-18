@@ -6,6 +6,13 @@ body {
     color: #505962
 }
 
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
 /*--- Navigation ---*/
 
 .navbar {
@@ -35,7 +42,7 @@ body {
 
 /*--- Landing Page --*/
 .home-inner {
-    background-image: url(../img/hotel.bmp);
+    background-image: url(../img/niceoftheprincess.gif);
 }
 
 .caption {
@@ -103,9 +110,45 @@ body {
     border-color: #1ebaa3;
 }
 
+.btn-secondary:hover {
+    background-color: #189582;
+    border-color: #189582;
+}
 
+/*--features--*/
 
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
 
+h3.heading {
+ font-size: 1.9rem;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+}
+
+.feature svg.svg-inline--fa {
+    color: #1ebba3;
+}
+
+.feature h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.feature p{
+    font-size: 1.1rem;
+}
 
 /*-- resource --*/
 
@@ -136,8 +179,30 @@ body {
     border-radius: 100%;
 }
 
+blockquote .svg-inline--fa{
+    color: #1ebba3;
+    margin: 1rem;
+}
 
+.clients-hr {
+    border-top: .05rem solid #1ebba3;
+}
 
+/*--contact-*/
+
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a{}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
